@@ -12,7 +12,7 @@ public class User {
     }
 
     public String getUsername() {
-        return "This is your username:  " +username;
+        return username;
     }
 
 }
