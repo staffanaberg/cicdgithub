@@ -23,7 +23,9 @@ public class TestUser {
         //Skapa ett objekt av klassen User
         User myUser = new User("henryviii", "password");
 
-        String myUsername = myUser.getSocialSecurityNumber();
+        String myUsername = myUser.getPassword();
+
+        assertEquals("password", myUsername);
 
         assertEquals("821111-1111", myUsername);
 
