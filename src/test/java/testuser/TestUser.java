@@ -23,11 +23,14 @@ public class TestUser {
         //Skapa ett objekt av klassen User
         User myUser = new User("henryviii", "password");
 
-        String myUsername = myUser.getUsername();
+        String myUsername = myUser.getPassword();
 
-        assertEquals("henryviii", myUsername);
+        assertEquals("password", myUsername);
+
+        //Changing some code
 
     }
+
 
 
 }
